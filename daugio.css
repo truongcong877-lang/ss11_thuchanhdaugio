@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+      font-family: sans-serif;
+}
+
+.header {
+    background-color: #C0392B;
+    height: 62px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 420px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 28px;
+
+}
+
+.naf-link {
+    display: flex;
+    gap: 40px;
+}
+
+.link {
+    color: white;
+    font-weight: 400;
+    font-size: 16.1px;
+    text-decoration: none;
+}
+.main {
+    background-color: #FFFFFF;
+    padding: 60px 460px;
+}
+.h1 {
+    color: #333333;
+    font-weight: 700;
+    font-size: 37.7px;
+}
+.comment {
+    color: #333333;
+    font-weight: 400;
+    font-size: 15.4px;
+}
+.menu {
+}
+.h3 {
+    color: #C0392B;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+.list-card {
+    display: flex;
+    gap: 50px;
+}
+.card-item {
+    text-align: center;
+    border: 1px solid #EEEEEE
+    background-color: #FFF9F5;
+    padding: 40px;
+    border-radius: 8px;
+}
+.food-img {
+    object-fit: cover;
+}
+.food-name {
+    color: #333333;
+    font-weight: 700;
+    font-size: 18.7px;
+}
+.food-price {
+    color: #C0392B;
+    font-weight: 700;
+    font-size: 19.1px;
+}
+
+.footer{
+    height: 78px;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    text-align: center;
+}
